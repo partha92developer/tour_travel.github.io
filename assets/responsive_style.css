@@ -1,0 +1,140 @@
+@media only screen and (max-width: 991px) {
+    html{
+        font-size: 9.24px;
+    }
+    .section-banner{
+        text-align: center;
+    }
+}
+@media only screen and (max-width: 767px) {
+    html{
+        font-size: 8.07px;
+    }
+    .section{
+        padding: 50px 0;
+    }
+    .section-banner{
+        text-align: center;
+    }
+    .section-title{
+        margin-bottom: 30px;
+    }
+    .row{
+        padding: 0;
+        margin: 0;
+    }
+    /* ========================================================== header start */
+    .main-navigation {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    /* background-color: rgba(10, 9, 9, 0.95); */
+    background-color: #fff;
+    left: 0;
+    top: 0;
+    z-index: 999;
+    padding-top: 60px;
+    display: none;
+    }
+    .close-menu {display: block;}
+    ul.nav-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+    li {
+    margin-right: 0px;
+    }
+    li a{
+    color: #050505;
+    }
+    ul.nav-menu a{
+    padding: 15px 0;
+    width: 100%;
+    display: block;
+    text-align: center;
+    }
+    .mobile-menu {
+    display: block;
+    }
+    .mobile-menu i{
+    color: #fe782e;
+    }
+    .close-menu i{
+    color: #fe782e;
+    }
+    ul.nav-menu li a {
+        margin-left: 0;
+    }
+/* ========================================================== header end */
+/* ========================================================== section x1 start */
+.dest-grid {
+    display: block;
+}
+/* .dest-grid-item {
+    margin-bottom: 30px;
+} */
+.dest-grid-item:not(:last-child) {
+    margin-bottom: 30px;
+}
+/* ========================================================== section x1 end */
+/* ========================================================== section x2 start */
+.tour-col-1 {
+    padding-right: 0;
+    margin-bottom: 30px;
+}
+/* ========================================================== section x2 end */
+/* ========================================================== section x3 start */
+.program-item {
+    margin-bottom: 30px;
+}
+/* ========================================================== section x3 end */
+/* ========================================================== section x4 start */
+.section-x4 p {
+    width: 100%;
+}
+.chos-img-wrap {
+    display: block;
+}
+.chos-img-wrap h4{
+    margin-bottom: 20px;
+}
+/* ========================================================== section x4 end */
+/* ========================================================== section x5 start */
+button.slick-prev.pull-left.slick-arrow {
+    display: none!important;
+}
+button.slick-next.pull-right.slick-arrow {
+    display: none!important;
+}
+.slider-description {
+    padding: 0;
+}
+/* ========================================================== section x5 end */
+/* ========================================================== footer start */
+.footer-contact {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.form-wrap {
+    display: flex;
+    margin-bottom: 0!important;
+}
+.form-wrap input#email {
+    width: 100%;
+}
+ul.f-menu.f-menu-1 {
+    margin-bottom: 20px;
+}
+/* ========================================================== footer end */
+
+
+
+
+
+
+
+
+
+
+}
